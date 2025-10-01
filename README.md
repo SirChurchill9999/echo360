@@ -5,6 +5,18 @@
 [![linux-downloads](https://img.shields.io/badge/Download%20Executable-Linux%20&%20Mac-blueviolet)](https://github.com/soraxas/echo360/releases/latest/download/echo360-linux)
 [![windows-downloads](https://img.shields.io/badge/Download%20Executable-Windows-blue)](https://github.com/soraxas/echo360/releases/latest/download/echo360-windows.exe)
 
+NOTE TO SELF: FIRST TIME I HAD TO RUN:
+
+```shell
+pip3 install -r requirements.txt
+```
+
+THEN
+
+```shell
+python3 echo360.py https://echo360.org/section/58ede021-e92c-43a6-91ab-4697e469843f
+```
+
 echo360 is a command-line Python tool that allows you to download lecture videos from any university's Echo360 system and echo360 Cloud platform. All that's required is the particular course's url. See the FAQ for tips on how to find it.
 
 The way this script works _should_ support all university's echo360 system in theory, see FAQ for details.
